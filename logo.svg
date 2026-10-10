@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="KingOfPanda">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b2a6e"/><stop offset="1" stop-color="#1e2a4a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd76a"/><stop offset="1" stop-color="#e0a526"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- coroa -->
+  <path d="M150 168 L176 92 L216 138 L256 72 L296 138 L336 92 L362 168 Z" fill="url(#gold)" stroke="#b07a10" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="176" cy="92" r="12" fill="#ffd76a"/><circle cx="256" cy="72" r="13" fill="#ffd76a"/><circle cx="336" cy="92" r="12" fill="#ffd76a"/>
+  <rect x="152" y="160" width="208" height="22" rx="8" fill="#e0a526"/>
+  <!-- orelhas -->
+  <circle cx="150" cy="210" r="46" fill="#14161c"/><circle cx="362" cy="210" r="46" fill="#14161c"/>
+  <!-- cabeça -->
+  <ellipse cx="256" cy="300" rx="152" ry="138" fill="#ffffff"/>
+  <!-- manchas dos olhos -->
+  <ellipse cx="196" cy="290" rx="40" ry="52" transform="rotate(-28 196 290)" fill="#14161c"/>
+  <ellipse cx="316" cy="290" rx="40" ry="52" transform="rotate(28 316 290)" fill="#14161c"/>
+  <circle cx="204" cy="286" r="14" fill="#ffffff"/><circle cx="308" cy="286" r="14" fill="#ffffff"/>
+  <circle cx="208" cy="289" r="7" fill="#14161c"/><circle cx="304" cy="289" r="7" fill="#14161c"/>
+  <!-- focinho -->
+  <ellipse cx="256" cy="350" rx="26" ry="18" fill="#14161c"/>
+  <path d="M256 368 v14 M256 382 q-18 16 -34 4 M256 382 q18 16 34 4" stroke="#14161c" stroke-width="7" fill="none" stroke-linecap="round"/>
+</svg>
